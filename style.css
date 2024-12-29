@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(237, 239, 238, 255);
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 90%;
+  position: relative;
+  left: 4%;
+  border-radius: 50px;
+}
+
+li {
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.promo-banner {
+  position: relative;
+  left: 5%;
+  top: 50px;
+}
+
+.banner {
+  width: 90%;
+  border-radius: 50px;
+}
+
+.promo-banner-contain {
+  position: relative;
+  left: 7%;
+  top: -230px;
+}
+
+.promo-title {
+  color: white;
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 55px;
+}
+
+.promo-paragraph {
+  font-family: Arial;
+  width: 450px;
+  font-size: 17px;
+}
