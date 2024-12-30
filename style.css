@@ -1,13 +1,18 @@
 body {
   background-color: rgba(237, 239, 238, 255);
+  font-family: Arial;
   margin: 0px;
   padding: 0px;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
+.logo-container {
+  text-align: center;
+  margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
 }
 
 ul {
@@ -27,19 +32,16 @@ li {
   list-style-type: none;
 }
 
-a {
+.nav-element {
   text-decoration: none;
   color: white;
   font-size: 22px;
 }
 
-.promo-banner {
-  position: relative;
-  left: 5%;
-  top: 50px;
-}
-
 .banner {
+  position: relative;
+  left: 83px;
+  top: 50px;
   width: 90%;
   border-radius: 50px;
 }
@@ -58,7 +60,72 @@ a {
 }
 
 .promo-paragraph {
-  font-family: Arial;
   width: 450px;
   font-size: 17px;
+}
+
+.grid-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 470px);
+  position: relative;
+  left: 100px;
+  top: -70px;
+}
+
+.columns {
+  border: none;
+  background-color: rgb(244, 229, 214);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  padding-left: 55px;
+}
+
+.menu-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.columns-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.columns-paragraph {
+  width: 290px;
+}
+
+.links {
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.time-table {
+  margin-left: 35px;
+}
+
+.footer-logo {
+  width: 60px;
+  position: relative;
+  left: 90px;
+  margin: 0;
+}
+
+.ruller {
+  position: relative;
+  top: -75px;
+  left: 320px;
+  width: 700px;
+}
+
+.copyright {
+  display: inline-block;
+  position: relative;
+  left: 1250px;
+  top: -70px;
+  margin: 0;
 }
